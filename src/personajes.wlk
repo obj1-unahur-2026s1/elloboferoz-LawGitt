@@ -1,3 +1,5 @@
+
+import src.elemento.*
 object feroz {
     var peso = 10
 
