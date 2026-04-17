@@ -47,4 +47,20 @@ object cazador {
         feroz.crisis()
     }
 }
+//
+//1) Si el lobo come al cazador:
+//-Tengo en cuenta que el cazador pesa 100.
+//Entonces el lobo come al cazador.Aumenta 10% de 100=10
+//19.1 + 10 = 29.1
+//El lobo esta saludable
+//(porque esta dentro del rango 20-150)
+//2) Si crisis=10 entonces no esta saludable
+//3)El cazador hace correr al lobo y por cada corrida baja 1.
+//Con 5 veces que corra ya está domesticado totalmente.
+//object cazador {
+//    method domesticar() {
+//        feroz.disminuyePeso(5)
+//    }
+//}
+//
 
